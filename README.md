@@ -1,6 +1,7 @@
 # JusticeNet-BD: A RAG-Based Legal Assistant for Women in Bangladesh 🇧🇩⚖️
 
-**JusticeNet-BD** is an experimental legal assistant tool designed to make legal information more accessible for women in Bangladesh. Built using Retrieval-Augmented Generation (RAG), this Streamlit app retrieves relevant legal knowledge from a curated corpus and generates responses to user queries.
+**JusticeNet-BD** is an experimental legal assistant tool designed to make legal information more accessible for women in Bangladesh. Built using Retrieval-Augmented Generation (RAG), this Streamlit app retrieves relevant legal knowledge from a curated corpus and generates responses to user queries. 
+Kindly **Read the model's research paper** to learn about model architecture, usage guidelines, and security concerns.
 
 🌐 **Live App:** [https://justice-net-bd.streamlit.app/](https://justice-net-bd.streamlit.app/)
 
