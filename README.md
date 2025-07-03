@@ -8,7 +8,7 @@
 
 ## 🔍 Project Overview
 
-This assistant is tailored to answer questions related to Bangladeshi laws concerning women's rights and protection — such as the **Penal Code**, **Nari o Shishu Nirjatan Daman Ain 2000**, and the **Dowry Prohibition Act**. It uses a custom RAG pipeline to retrieve legal content and generate answers grounded in actual legal clauses.
+This assistant is tailored to answer questions related to Bangladeshi laws concerning women's rights and protection — such as the **Penal Code**, **Nari o Shishu Nirjatan Daman Ain 2000**, **Dowry Prohibition Act** etc. It uses a custom RAG pipeline to retrieve legal content and generate answers grounded in actual legal clauses. The data is incremented weekly to boost model performance. 
 
 ---
 
