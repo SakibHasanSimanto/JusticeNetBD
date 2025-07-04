@@ -39,6 +39,8 @@ The legal corpus (women_rag_corpus1.txt) is updated regularly to reflect changes
 ## ⚠️ Disclaimer 
 This is an experimental tool intended for informational purposes only. It only helps you search and gather relevant legal information according to your queries. It cannot provide professional legal assistance.
 
+---
+
 ## 🛠️ Reproducibility and Deployment Guidelines for Developers
 
 To reproduce or deploy your own version of the JusticeNet-BD assistant, or any RAG Assistant, you will need **four essential files** hosted in a public GitHub repository:
