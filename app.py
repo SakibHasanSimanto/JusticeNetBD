@@ -105,8 +105,8 @@ st.image("https://media.giphy.com/media/TCpsChOcCcb65Qg68f/giphy.gif", width=20)
 
 with st.expander("Disclaimer", expanded=False):
     st.markdown(
-        "The application is built to make legal information easily accessible for women."
-        "Note that, it is experimental and is under development."
+        "This application is designed to make legal information more accessible to women. "
+        "Please note that it is currently experimental and under active development."
     )
 
 # ---------- 4. Session state initialization ----------
