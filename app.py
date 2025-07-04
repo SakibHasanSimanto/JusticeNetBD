@@ -101,7 +101,7 @@ st.set_page_config(page_title="JusticeNetBD – Legal AI Assistant for Women In 
 st.title("⚖️ JusticeNetBD: Legal AI Assistant")
 st.caption("Powered by BAAI embeddings + Llama 3‑8B (GROQ). Made by K.S Hasan.")
 # gif test 
-st.image("https://media.giphy.com/media/3ohs4oWkzyVeVgTwKQ/giphy.gif", width=20)
+st.image("https://media.giphy.com/media/TCpsChOcCcb65Qg68f/giphy.gif", width=20)
 
 with st.expander("Disclaimer", expanded=False):
     st.markdown(
