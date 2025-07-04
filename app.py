@@ -101,23 +101,31 @@ st.set_page_config(page_title="JusticeNetBD – Legal AI Assistant for Women In 
 # ---------- 3.5  Blinking‑star UI enhancer ----------
 components.html(
     """
-    <div style="position:fixed; top:20px; right:20px; z-index:1000;">
-      <span style="
-        font-size: 34px;
-        animation: blink 1s infinite;
-        user-select: none;
-      ">✨</span>
-    </div>
+    <script>
+    const star = document.createElement("div");
+    star.innerHTML = "✨";
+    Object.assign(star.style, {
+        position: "fixed",
+        top: "20px",
+        right: "20px",
+        fontSize: "34px",
+        animation: "blink 1s infinite",
+        zIndex: 9999,
+        userSelect: "none"
+    });
+    document.body.appendChild(star);
 
-    <style>
+    const style = document.createElement("style");
+    style.innerHTML = `
     @keyframes blink {
-      0%   { opacity: 1; }
-      50%  { opacity: 0; }
-      100% { opacity: 1; }
-    }
-    </style>
+        0%   { opacity: 1; }
+        50%  { opacity: 0; }
+        100% { opacity: 1; }
+    }`;
+    document.head.appendChild(style);
+    </script>
     """,
-    height=0,   # we don't need a visible iframe area
+    height=0,
     width=0
 )
 
