@@ -97,6 +97,14 @@ def generate_answer(user_msg: str, history: list) -> str:
 # ---------- 3. Streamlit UI ----------
 st.set_page_config(page_title="JusticeNetBD – Legal AI Assistant for Women In Bangladesh", page_icon="🪄")
 # Anima purpose 
+st.markdown(
+    """
+    <div style="position: fixed; top: 20px; right: 20px; z-index: 1000;">
+        <img src="https://media.giphy.com/media/3ohs4oWkzyVeVgTwKQ/giphy.gif" width="40">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # titles
 st.title("⚖️ JusticeNetBD: Legal AI Assistant")
