@@ -14,6 +14,13 @@ This assistant is tailored to answer questions related to Bangladeshi laws conce
 
 ---
 
+## 📸 Demo & Screenshots
+Below are some screenshots demonstrating the usage of JusticeNetBD:
+
+<p align="center"> <img src="https://github.com/SakibHasanSimanto/JusticeNetBD/blob/main/ss1.png" alt="Screenshot 1" width="600"/> <br/><em>Figure 1: Home Page Interface</em> </p> <p align="center"> <img src="https://github.com/SakibHasanSimanto/JusticeNetBD/blob/main/ss2.png" alt="Screenshot 2" width="600"/> <br/><em>Figure 2: User Query Example</em> </p> <p align="center"> <img src="https://github.com/SakibHasanSimanto/JusticeNetBD/blob/main/ss3.png" alt="Screenshot 3" width="600"/> <br/><em>Figure 3: Legal Response Generated</em> </p> <p align="center"> <img src="https://github.com/SakibHasanSimanto/JusticeNetBD/blob/main/ss4.png" alt="Screenshot 4" width="600"/> <br/><em>Figure 4: Resource Link Suggestions</em> </p> <p align="center"> <img src="https://github.com/SakibHasanSimanto/JusticeNetBD/blob/main/ss5.png" alt="Screenshot 5" width="600"/> <br/><em>Figure 5: Session History Overview</em> </p> 
+
+---
+
 ## 📁 Repository Structure
 
 | File | Description |
