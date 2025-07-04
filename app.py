@@ -16,7 +16,6 @@ import numpy as np
 import requests
 import streamlit as st
 from sentence_transformers import SentenceTransformer 
-import streamlit.components.v1 as components   # anima purpose
 import time
 
 # ---------- 0.  Per‑user session ID ----------
