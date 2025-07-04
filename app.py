@@ -99,34 +99,28 @@ def generate_answer(user_msg: str, history: list) -> str:
 st.set_page_config(page_title="JusticeNetBD – Legal AI Assistant for Women In Bangladesh", page_icon="🪄")
 # Anima purpose 
 # ---------- 3.5  Blinking‑star UI enhancer ----------
-components.html(
+st.markdown(
     """
-    <script>
-    const star = document.createElement("div");
-    star.innerHTML = "✨";
-    Object.assign(star.style, {
-        position: "fixed",
-        top: "20px",
-        right: "20px",
-        fontSize: "34px",
-        animation: "blink 1s infinite",
-        zIndex: 9999,
-        userSelect: "none"
-    });
-    document.body.appendChild(star);
-
-    const style = document.createElement("style");
-    style.innerHTML = `
+    <style>
+    .blinking-star {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        font-size: 34px;
+        animation: blink 1s infinite;
+        z-index: 9999;
+        user-select: none;
+    }
     @keyframes blink {
         0%   { opacity: 1; }
         50%  { opacity: 0; }
         100% { opacity: 1; }
-    }`;
-    document.head.appendChild(style);
-    </script>
+    }
+    </style>
+
+    <div class="blinking-star">✨</div>
     """,
-    height=0,
-    width=0
+    unsafe_allow_html=True
 )
 
 # titles
