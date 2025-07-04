@@ -34,6 +34,8 @@ Below are some screenshots demonstrating the usage of JusticeNetBD:
 ## 📚 Knowledge Base Updates 
 The legal corpus (women_rag_corpus1.txt) is updated regularly to reflect changes or additions in relevant laws and services. After updates, bdWomanLaw_chunks.pkl and bdWomanLaw_index.faiss are regenerated accordingly.
 
+--- 
+
 ## ⚠️ Disclaimer 
 This is an experimental tool intended for informational purposes only. It only helps you search and gather relevant legal information according to your queries. It cannot provide professional legal assistance.
 
