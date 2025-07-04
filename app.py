@@ -15,7 +15,8 @@ import faiss
 import numpy as np
 import requests
 import streamlit as st
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer 
+import streamlit.components.v1 as components   # anima purpose
 import time
 
 # ---------- 0.  Per‑user session ID ----------
@@ -96,7 +97,31 @@ def generate_answer(user_msg: str, history: list) -> str:
 
 # ---------- 3. Streamlit UI ----------
 st.set_page_config(page_title="JusticeNetBD – Legal AI Assistant for Women In Bangladesh", page_icon="🪄")
+# Anima purpose 
+# ---------- 3.5  Blinking‑star UI enhancer ----------
+components.html(
+    """
+    <div style="position:fixed; top:20px; right:20px; z-index:1000;">
+      <span style="
+        font-size: 34px;
+        animation: blink 1s infinite;
+        user-select: none;
+      ">✨</span>
+    </div>
 
+    <style>
+    @keyframes blink {
+      0%   { opacity: 1; }
+      50%  { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    </style>
+    """,
+    height=0,   # we don't need a visible iframe area
+    width=0
+)
+
+# titles
 st.title("⚖️ JusticeNetBD: Legal AI Assistant")
 st.caption("Powered by BAAI embeddings + Llama 3‑8B (GROQ). Made by K.S Hasan.")
 
