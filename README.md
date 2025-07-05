@@ -4,7 +4,7 @@
 
 Kindly **Read the model's research paper** to learn about model architecture, usability, and performance against SOTA models (Gemini Flash 2.5, ChatGPT-4o Turbo, and DeepSeek-V3). 
 
-🔗 **Research Preprint** [https://doi.org/10.5281/zenodo.15814498](https://doi.org/10.5281/zenodo.15814498)
+🔗 **Research Preprint:** [https://doi.org/10.5281/zenodo.15814498](https://doi.org/10.5281/zenodo.15814498)
 
 🌐 **Live App:** [https://justice-net-bd.streamlit.app/](https://justice-net-bd.streamlit.app/)
 
