@@ -2,7 +2,8 @@
 
 **JusticeNet-BD** is an experimental legal assistant tool designed to make legal information more accessible for women in Bangladesh. Built using Retrieval-Augmented Generation (RAG), this Streamlit app retrieves relevant legal knowledge from a curated corpus and generates responses to user queries. 
 
-Kindly **Read the model's research paper** to learn about model architecture, usability, and performance against SOTA models (Gemini Flash 2.5, ChatGPT-4o Turbo, and DeepSeek-V3).
+Kindly **Read the model's research paper** to learn about model architecture, usability, and performance against SOTA models (Gemini Flash 2.5, ChatGPT-4o Turbo, and DeepSeek-V3). 
+🔗 **Research Preprint** [https://doi.org/10.5281/zenodo.15814498](https://doi.org/10.5281/zenodo.15814498)
 
 🌐 **Live App:** [https://justice-net-bd.streamlit.app/](https://justice-net-bd.streamlit.app/)
 
