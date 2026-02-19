@@ -38,7 +38,7 @@ index, chunks, embedder = load_resources()
 # ---------- 2. Helper functions ----------
 GROQ_API_KEY = st.secrets["GROQ_API_KEY"]          # stored in .streamlit/secrets.toml
 GROQ_URL     = "https://api.groq.com/openai/v1/chat/completions"
-MODEL_NAME   = "llama3-8b-8192"
+MODEL_NAME   = "llama-3.1-8b-instant"
 
 def retrieve_context(query, k: int = 2) -> str:
     """Return the top‑k chunks concatenated as context."""
